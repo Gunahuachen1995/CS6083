@@ -23,6 +23,9 @@ $query = 'SELECT profile_image_url, created_at, screen_name,
 if (isset($_GET['last'])) {  
   $query .= 'WHERE tweet_id < "' . $_GET['last'] . '" ';
 }
+if(isset($_GET['search'])) {
+  $query .= "WHERE tweet_text LIKE '%" . $_GET['search'] . "%'";
+}
 
 $query .= 'ORDER BY tweet_id DESC LIMIT ' . TWEET_DISPLAY_COUNT;
 $result = $oDB->select($query);
@@ -74,7 +77,7 @@ if (!$tweets_found) {
   }	
 }
 
-if (isset($_GET['last'])) {
+if (isset($_GET['last']) || isset($_GET['search'])) {
   // Called by site.js with , so print HTML to the browser
   print $tweet_list;
 } else {

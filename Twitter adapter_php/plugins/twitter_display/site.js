@@ -39,9 +39,49 @@ jQuery(document).ready(function($){
     $("#more_tweets_button").click(function(){
       load_more_tweets();
     });
+
+    $(".tfbutton").click(function(){
+      search_tweets();
+    });
   }
   /**********/	
   
+  function search_tweets(){
+    $('#more_tweets_button').unbind('click');
+    var txt = $(".tftextinput").val();
+    //alert(txt);
+    // Save the button's current values, and display a progress GIF
+    var old_button = $("#more_tweets_button").html();
+    var old_count = $("#tweet_list").find(".tweet").length;
+    $("#more_tweets_button").html("<center><img src='" +
+      $("#ajax_url").html() + 
+      "ajax-loading.gif'></center>");
+      
+    // Ask the server for tweets older than the one at the bottom of the list
+    var last_id = $(".tweet_id").last().html();
+    $.get( $("#ajax_url").html() + 
+      "get_tweet_list.php?search=" + txt, 
+      function(tweet_html){
+  
+      // Add the server's response to the end of the list
+      $("#tweet_list").html(tweet_html);
+  
+      // If more tweets were added, redisplay the button with the new count
+      var new_count = $("#tweet_list").find(".tweet").length;
+      if (new_count > 0) {
+        $("#more_tweets_button").html(old_button);
+        $("#tweet_count").html(new_count);
+        
+        // Enable the click event again
+        $("#more_tweets_button").click(function(){
+          load_more_tweets();
+        });
+      } else {
+        // No older tweets are available
+        $("#more_tweets_button").hide();
+      }
+    });
+  }  
   // Refresh the new tweet count at the top of the list 
   function get_new_tweet_count(){  
         

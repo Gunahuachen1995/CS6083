@@ -11,9 +11,16 @@
 </script>
 </head>
 <body>
- <h2>Twitter display adapter</h2>
- <p>tweets list 表</p>
+ <div id="tfheader">
+ 		<h2 style="margin-top: 0px;">Twitter display adapter</h2>
+		<div id="tfnewsearch">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
+		        <input type="submit" value="search" class="tfbutton">
+		</div>
+	<div class="tfclear"></div>
+ </div>
+ <div id="tweetslist">
 <?php require('twitter_display.php'); ?>
-
+</div>
 </body>
 </html>

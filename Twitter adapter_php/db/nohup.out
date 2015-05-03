@@ -867,3 +867,115 @@ Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 0.61ms, a
 Phirehose: Consume rate: 1 status/sec (40 total), avg enqueueStatus(): 0.62ms, avg checkFilterPredicates(): 0ms (10 total) over 60 seconds, max stream idle period: 5 seconds.
 Phirehose: Consume rate: 1 status/sec (44 total), avg enqueueStatus(): 0.59ms, avg checkFilterPredicates(): 0.01ms (11 total) over 61 seconds, max stream idle period: 6 seconds.
 Phirehose: Consume rate: 1 status/sec (73 total), avg enqueueStatus(): 0.5ms, avg checkFilterPredicates(): 0.01ms (11 total) over 60 seconds, max stream idle period: 3 seconds.
+ Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'apple watch',)
+Phirehose: Resolved host stream.twitter.com to 199.16.156.20
+Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+Phirehose: Connection established to 199.16.156.20
+Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 19
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="bPRnzhcLJxr1gSgcpDWXeXSm3",oauth_nonce="f6c1ca6d26999a48932a426a7dd77828",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1430606997",oauth_version="1.0A",oauth_token="1068719712-GblrfVA2vneQH6gKvcMiw99ha9bTmfTpfCkBjEQ",oauth_signature="iiDJpQ5Xn3FnfQYE1us5%2FYdVFms%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=apple%20watch
+
+
+ Phirehose: Consume rate: 0 status/sec (28 total), avg enqueueStatus(): 0.7ms, avg checkFilterPredicates(): 0.01ms (10 total) over 63 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 0 status/sec (18 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0.01ms (8 total) over 64 seconds, max stream idle period: 17 seconds.
+Phirehose: Consume rate: 1 status/sec (42 total), avg enqueueStatus(): 0.71ms, avg checkFilterPredicates(): 0ms (10 total) over 62 seconds, max stream idle period: 6 seconds.
+Phirehose: Consume rate: 0 status/sec (30 total), avg enqueueStatus(): 0.75ms, avg checkFilterPredicates(): 0.01ms (8 total) over 61 seconds, max stream idle period: 13 seconds.
+Phirehose: Consume rate: 0 status/sec (13 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0.01ms (6 total) over 60 seconds, max stream idle period: 15 seconds.
+Phirehose: Consume rate: 0 status/sec (27 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0.01ms (9 total) over 62 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (18 total), avg enqueueStatus(): 0.7ms, avg checkFilterPredicates(): 0.01ms (8 total) over 63 seconds, max stream idle period: 13 seconds.
+Phirehose: Consume rate: 0 status/sec (25 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0.01ms (9 total) over 62 seconds, max stream idle period: 11 seconds.
+Phirehose: Consume rate: 0 status/sec (29 total), avg enqueueStatus(): 0.61ms, avg checkFilterPredicates(): 0.01ms (9 total) over 62 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 1 status/sec (43 total), avg enqueueStatus(): 0.57ms, avg checkFilterPredicates(): 0ms (11 total) over 60 seconds, max stream idle period: 6 seconds.
+Phirehose: Consume rate: 1 status/sec (39 total), avg enqueueStatus(): 0.62ms, avg checkFilterPredicates(): 0.01ms (10 total) over 62 seconds, max stream idle period: 8 seconds.
+Phirehose: Consume rate: 1 status/sec (32 total), avg enqueueStatus(): 0.67ms, avg checkFilterPredicates(): 0.01ms (9 total) over 60 seconds, max stream idle period: 12 seconds.
+Phirehose: Consume rate: 1 status/sec (35 total), avg enqueueStatus(): 0.57ms, avg checkFilterPredicates(): 0.01ms (8 total) over 64 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 0 status/sec (25 total), avg enqueueStatus(): 0.6ms, avg checkFilterPredicates(): 0ms (9 total) over 62 seconds, max stream idle period: 8 seconds.
+Phirehose: Consume rate: 1 status/sec (32 total), avg enqueueStatus(): 0.62ms, avg checkFilterPredicates(): 0.01ms (9 total) over 60 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 0 status/sec (18 total), avg enqueueStatus(): 0.48ms, avg checkFilterPredicates(): 0ms (4 total) over 60 seconds, max stream idle period: 35 seconds.
+Phirehose: Consume rate: 0 status/sec (19 total), avg enqueueStatus(): 0.62ms, avg checkFilterPredicates(): 0ms (7 total) over 65 seconds, max stream idle period: 14 seconds.
+Phirehose: Consume rate: 0 status/sec (22 total), avg enqueueStatus(): 0.6ms, avg checkFilterPredicates(): 0.01ms (8 total) over 60 seconds, max stream idle period: 17 seconds.
+Phirehose: Consume rate: 1 status/sec (33 total), avg enqueueStatus(): 0.63ms, avg checkFilterPredicates(): 0.01ms (11 total) over 60 seconds, max stream idle period: 4 seconds.
+Phirehose: Consume rate: 0 status/sec (24 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0.01ms (8 total) over 62 seconds, max stream idle period: 10 seconds.
+Phirehose: Consume rate: 0 status/sec (20 total), avg enqueueStatus(): 0.75ms, avg checkFilterPredicates(): 0ms (8 total) over 65 seconds, max stream idle period: 16 seconds.
+Phirehose: Consume rate: 0 status/sec (30 total), avg enqueueStatus(): 0.66ms, avg checkFilterPredicates(): 0.01ms (9 total) over 62 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (26 total), avg enqueueStatus(): 0.66ms, avg checkFilterPredicates(): 0.01ms (10 total) over 62 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 1 status/sec (53 total), avg enqueueStatus(): 0.63ms, avg checkFilterPredicates(): 0.01ms (9 total) over 61 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 0.69ms, avg checkFilterPredicates(): 0.01ms (11 total) over 63 seconds, max stream idle period: 5 seconds.
+Phirehose: Consume rate: 1 status/sec (38 total), avg enqueueStatus(): 0.57ms, avg checkFilterPredicates(): 0.01ms (11 total) over 63 seconds, max stream idle period: 5 seconds.
+Phirehose: Consume rate: 0 status/sec (31 total), avg enqueueStatus(): 0.6ms, avg checkFilterPredicates(): 0.01ms (10 total) over 64 seconds, max stream idle period: 8 seconds.
+Phirehose: Consume rate: 0 status/sec (27 total), avg enqueueStatus(): 0.62ms, avg checkFilterPredicates(): 0.01ms (8 total) over 62 seconds, max stream idle period: 11 seconds.
+Phirehose: Consume rate: 1 status/sec (36 total), avg enqueueStatus(): 0.66ms, avg checkFilterPredicates(): 0.01ms (11 total) over 64 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 1 status/sec (32 total), avg enqueueStatus(): 0.58ms, avg checkFilterPredicates(): 0ms (9 total) over 61 seconds, max stream idle period: 9 seconds.
+Phirehose: Idle timeout: No stream activity for > 90 seconds.  Reconnecting.
+Phirehose: Closing Phirehose connection.
+Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'apple watch',)
+PHP Fatal error:  Uncaught exception 'PhirehoseNetworkException' with message 'Unable to resolve hostname: 'stream.twitter.com"' in /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php:641
+Stack trace:
+#0 /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php(836): Phirehose->connect()
+#1 /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php(432): Phirehose->reconnect()
+#2 /Users/hongyegong/Sites/140dev/db/get_tweets.php(57): Phirehose->consume()
+#3 {main}
+  thrown in /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php on line 641
+
+Fatal error: Uncaught exception 'PhirehoseNetworkException' with message 'Unable to resolve hostname: 'stream.twitter.com"' in /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php on line 641
+
+PhirehoseNetworkException: Unable to resolve hostname: 'stream.twitter.com" in /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php on line 641
+
+Call Stack:
+    0.0004     237480   1. {main}() /Users/hongyegong/Sites/140dev/db/get_tweets.php:0
+    0.0065     514216   2. Phirehose->consume() /Users/hongyegong/Sites/140dev/db/get_tweets.php:57
+ 4822.1514     528448   3. Phirehose->reconnect() /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php:432
+ 4822.1516     519696   4. Phirehose->connect() /Users/hongyegong/Sites/140dev/libraries/phirehose/Phirehose.php:836
+
+ Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'apple watch',)
+Phirehose: Resolved host stream.twitter.com to 199.16.156.217
+Phirehose: Connecting to ssl://199.16.156.217, port=443, connectTimeout=5
+Phirehose: Connection established to 199.16.156.217
+Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 19
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="bPRnzhcLJxr1gSgcpDWXeXSm3",oauth_nonce="337cc438b5f70a9d6075b4fd5e9108d1",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1430616185",oauth_version="1.0A",oauth_token="1068719712-GblrfVA2vneQH6gKvcMiw99ha9bTmfTpfCkBjEQ",oauth_signature="MuMmY1w9Pdn9vjtupibQVTR2Xuw%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=apple%20watch
+
+
+ Phirehose: Consume rate: 0 status/sec (27 total), avg enqueueStatus(): 0.64ms, avg checkFilterPredicates(): 0.01ms (9 total) over 60 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 0 status/sec (29 total), avg enqueueStatus(): 0.69ms, avg checkFilterPredicates(): 0.01ms (9 total) over 63 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (27 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0.01ms (10 total) over 68 seconds, max stream idle period: 10 seconds.
+Phirehose: Consume rate: 0 status/sec (24 total), avg enqueueStatus(): 0.74ms, avg checkFilterPredicates(): 0ms (10 total) over 61 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 1 status/sec (31 total), avg enqueueStatus(): 0.68ms, avg checkFilterPredicates(): 0.01ms (9 total) over 61 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 0 status/sec (30 total), avg enqueueStatus(): 0.72ms, avg checkFilterPredicates(): 0ms (8 total) over 61 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 1 status/sec (35 total), avg enqueueStatus(): 0.7ms, avg checkFilterPredicates(): 0.01ms (10 total) over 62 seconds, max stream idle period: 8 seconds.
+Phirehose: Consume rate: 0 status/sec (27 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0.01ms (9 total) over 61 seconds, max stream idle period: 12 seconds.
+Phirehose: Consume rate: 0 status/sec (29 total), avg enqueueStatus(): 0.68ms, avg checkFilterPredicates(): 0ms (9 total) over 60 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (24 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0ms (8 total) over 64 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (30 total), avg enqueueStatus(): 0.62ms, avg checkFilterPredicates(): 0ms (9 total) over 63 seconds, max stream idle period: 8 seconds.
+Phirehose: Consume rate: 0 status/sec (17 total), avg enqueueStatus(): 0.64ms, avg checkFilterPredicates(): 0ms (8 total) over 61 seconds, max stream idle period: 12 seconds.
+Phirehose: Consume rate: 0 status/sec (29 total), avg enqueueStatus(): 0.7ms, avg checkFilterPredicates(): 0ms (9 total) over 61 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (29 total), avg enqueueStatus(): 0.72ms, avg checkFilterPredicates(): 0.01ms (9 total) over 65 seconds, max stream idle period: 14 seconds.
+Phirehose: Consume rate: 0 status/sec (20 total), avg enqueueStatus(): 0.61ms, avg checkFilterPredicates(): 0ms (9 total) over 67 seconds, max stream idle period: 16 seconds.
+Phirehose: Consume rate: 1 status/sec (36 total), avg enqueueStatus(): 0.71ms, avg checkFilterPredicates(): 0ms (10 total) over 66 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (25 total), avg enqueueStatus(): 0.72ms, avg checkFilterPredicates(): 0ms (9 total) over 63 seconds, max stream idle period: 15 seconds.
+Phirehose: Consume rate: 0 status/sec (22 total), avg enqueueStatus(): 0.68ms, avg checkFilterPredicates(): 0.01ms (9 total) over 60 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 1 status/sec (33 total), avg enqueueStatus(): 0.71ms, avg checkFilterPredicates(): 0.01ms (9 total) over 60 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 0 status/sec (20 total), avg enqueueStatus(): 0.86ms, avg checkFilterPredicates(): 0.01ms (9 total) over 65 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 1 status/sec (32 total), avg enqueueStatus(): 0.67ms, avg checkFilterPredicates(): 0ms (9 total) over 64 seconds, max stream idle period: 13 seconds.
+Phirehose: Consume rate: 0 status/sec (26 total), avg enqueueStatus(): 0.7ms, avg checkFilterPredicates(): 0ms (8 total) over 62 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (24 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0ms (9 total) over 62 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 1 status/sec (30 total), avg enqueueStatus(): 0.64ms, avg checkFilterPredicates(): 0.01ms (9 total) over 60 seconds, max stream idle period: 10 seconds.
+Phirehose: Consume rate: 0 status/sec (30 total), avg enqueueStatus(): 0.65ms, avg checkFilterPredicates(): 0ms (9 total) over 67 seconds, max stream idle period: 10 seconds.
+Phirehose: Consume rate: 1 status/sec (35 total), avg enqueueStatus(): 0.66ms, avg checkFilterPredicates(): 0.01ms (10 total) over 64 seconds, max stream idle period: 8 seconds.
+Phirehose: Consume rate: 1 status/sec (37 total), avg enqueueStatus(): 0.76ms, avg checkFilterPredicates(): 0.01ms (10 total) over 60 seconds, max stream idle period: 7 seconds.
+Phirehose: Consume rate: 1 status/sec (36 total), avg enqueueStatus(): 0.76ms, avg checkFilterPredicates(): 0.01ms (11 total) over 60 seconds, max stream idle period: 9 seconds.
+Phirehose: Consume rate: 0 status/sec (27 total), avg enqueueStatus(): 0.76ms, avg checkFilterPredicates(): 0.01ms (10 total) over 64 seconds, max stream idle period: 6 seconds.

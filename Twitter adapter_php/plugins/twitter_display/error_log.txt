@@ -1,0 +1,39 @@
+Sat, 02 May 15 21:33:08 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"apple"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"apple"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:33:35 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:33:37 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:33:37 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:33:37 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:33:37 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:33:37 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:33:38 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:36:20 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"apple"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"apple"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:37:37 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"Watch"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"Watch"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:39:01 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%"apple"% ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %"apple"% ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:42:52 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%apple%ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %apple%ORDER BY tweet_id DESC LIMIT 30
+Sat, 02 May 15 21:46:21 -0400 | /~hongyegong/140dev/plugins/twitter_display/get_tweet_list.php -> select | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'apple'%ORDER BY tweet_id DESC LIMIT 30' at line 3 | SELECT profile_image_url, created_at, screen_name, 
+  name, tweet_text, tweet_id
+  FROM tweets WHERE tweet_text LIKE %'apple'%ORDER BY tweet_id DESC LIMIT 30
