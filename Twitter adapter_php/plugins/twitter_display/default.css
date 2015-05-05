@@ -158,3 +158,10 @@ body{
 	margin: 0px auto;
 	width: 50%;
 }
+.gmap_canvas{
+		display: none;
+        width:50%;
+        height:30em;
+}
+     
+

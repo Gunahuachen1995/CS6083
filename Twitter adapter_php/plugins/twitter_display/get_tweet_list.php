@@ -56,8 +56,13 @@ while (($row = mysqli_fetch_assoc($result))
     $current_tweet);  
   $current_tweet = str_replace( '[tweet_display_title]', 
     TWEET_DISPLAY_TITLE, $current_tweet);  
+  $current_tweet = str_replace( '[mapid]', 
+    $row['tweet_id'], $current_tweet);
   $current_tweet = str_replace( '[nlp_link]', 
     $row['tweet_text'], $current_tweet);
+  $current_tweet = str_replace( '[address]', 
+    'Brooklyn', $current_tweet);
+
   $current_tweet = str_replace( '[tweet_text]', 
     linkify($row['tweet_text']), $current_tweet);  
 		
