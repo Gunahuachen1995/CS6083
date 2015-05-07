@@ -1034,3 +1034,34 @@ Phirehose: Consume rate: 0 status/sec (25 total), avg enqueueStatus(): 0.53ms, a
 Phirehose: Consume rate: 0 status/sec (27 total), avg enqueueStatus(): 0.64ms, avg checkFilterPredicates(): 0ms (9 total) over 60 seconds, max stream idle period: 10 seconds.
 Phirehose: Consume rate: 0 status/sec (30 total), avg enqueueStatus(): 0.7ms, avg checkFilterPredicates(): 0.01ms (8 total) over 62 seconds, max stream idle period: 8 seconds.
 Phirehose: Consume rate: 0 status/sec (26 total), avg enqueueStatus(): 0.64ms, avg checkFilterPredicates(): 0.01ms (8 total) over 65 seconds, max stream idle period: 13 seconds.
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+
+Warning: Module 'redis' already loaded in Unknown on line 0
+ Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'apple watch,boston,california,florida,newyork',)
+Phirehose: Resolved host stream.twitter.com to 199.16.156.20
+Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+Phirehose: Connection established to 199.16.156.20
+Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 61
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="bPRnzhcLJxr1gSgcpDWXeXSm3",oauth_nonce="7c3222a7a2767e45e74f1e02729a3457",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1431032310",oauth_version="1.0A",oauth_token="1068719712-GblrfVA2vneQH6gKvcMiw99ha9bTmfTpfCkBjEQ",oauth_signature="YFhnAq1yW8AoTE5Ul8bQpfU2uQU%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=apple%20watch%2Cboston%2Ccalifornia%2Cflorida%2Cnewyork
+
+
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+
+Warning: Module 'redis' already loaded in Unknown on line 0
+ Phirehose: Consume rate: 4 status/sec (256 total), avg enqueueStatus(): 0.72ms, avg checkFilterPredicates(): 0ms (11 total) over 60 seconds, max stream idle period: 2 seconds.
+Phirehose: Consume rate: 5 status/sec (300 total), avg enqueueStatus(): 0.59ms, avg checkFilterPredicates(): 0.01ms (10 total) over 66 seconds, max stream idle period: 8 seconds.
+Phirehose: Consume rate: 5 status/sec (315 total), avg enqueueStatus(): 0.83ms, avg checkFilterPredicates(): 0.01ms (11 total) over 60 seconds, max stream idle period: 5 seconds.
+Phirehose: Consume rate: 5 status/sec (297 total), avg enqueueStatus(): 0.83ms, avg checkFilterPredicates(): 0.01ms (11 total) over 62 seconds, max stream idle period: 4 seconds.
+Phirehose: Consume rate: 4 status/sec (267 total), avg enqueueStatus(): 0.92ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 2 seconds.
+Phirehose: Consume rate: 4 status/sec (261 total), avg enqueueStatus(): 0.88ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 1 seconds.
+Phirehose: Consume rate: 4 status/sec (265 total), avg enqueueStatus(): 0.84ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 3 seconds.
+Phirehose: Consume rate: 4 status/sec (262 total), avg enqueueStatus(): 0.96ms, avg checkFilterPredicates(): 0.01ms (11 total) over 60 seconds, max stream idle period: 6 seconds.
+Phirehose: Consume rate: 4 status/sec (242 total), avg enqueueStatus(): 0.75ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 2 seconds.

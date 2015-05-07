@@ -8,10 +8,12 @@
 * @license GNU Public License
 * @version BETA 0.30
 */
-
+require_once ('autoloader.php');// won't include it again in the following examples
 require_once('twitter_display_config.php' );
 require_once('display_lib.php');
 require_once('../../db/db_lib.php' ); 
+use NlpTools\Tokenizers\WhitespaceAndPunctuationTokenizer;
+
 $oDB = new db;
 
 $query = 'SELECT profile_image_url, created_at, screen_name, 
@@ -34,9 +36,10 @@ $result = $oDB->select($query);
 $tweet_template = file_get_contents('tweet_template.txt');
 $tweet_list = '';
 $tweets_found = 0;
+$tok = new WhitespaceAndPunctuationTokenizer();
 while (($row = mysqli_fetch_assoc($result))
   &&($tweets_found < TWEET_DISPLAY_COUNT)) { 
-  
+  $wordarr = array();
   ++$tweets_found; 
 	
   // create a fresh copy of the empty template
@@ -60,8 +63,31 @@ while (($row = mysqli_fetch_assoc($result))
     $row['tweet_id'], $current_tweet);
   $current_tweet = str_replace( '[nlp_link]', 
     $row['tweet_text'], $current_tweet);
-  $current_tweet = str_replace( '[address]', 
-    'Brooklyn', $current_tweet);
+  $keys = $tok->tokenize($row['tweet_text']);
+  foreach ($keys as $key) {   
+    if (ctype_alpha($key)) {
+      $query = "SELECT cityname FROM city where cityname = '" . $key . "'";
+      $qresult = $oDB->select($query);
+      if(mysqli_fetch_assoc($qresult)){
+        $wordarr[] = $key;
+      }   
+    }
+  }
+  if(count($wordarr) > 0){
+    $array = array();
+    for($i = 0; $i < 2 && count($wordarr) > 0;  $i++){
+      $lengths = array_map('strlen', $wordarr);
+      $maxLength = max($lengths);
+      $index = array_search($maxLength, $lengths);
+      $array[] = $wordarr[$index];
+      unset($wordarr[$index]);
+      $wordarr = array_values($wordarr);
+    }
+    $symbol_separated = implode("+", $array);
+    $current_tweet = str_replace( '[address]', $symbol_separated, $current_tweet);
+  } else {
+    $current_tweet = str_replace( '[address]', 'United States', $current_tweet);
+  }
 
   $current_tweet = str_replace( '[tweet_text]', 
     linkify($row['tweet_text']), $current_tweet);  
@@ -72,6 +98,7 @@ while (($row = mysqli_fetch_assoc($result))
 		
   // Add this tweet to the list
   $tweet_list .= $current_tweet;
+  unset($wordarr);
 }
 
 if (!$tweets_found) {
