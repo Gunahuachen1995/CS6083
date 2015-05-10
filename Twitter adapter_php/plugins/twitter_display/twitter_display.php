@@ -22,6 +22,7 @@ $tweet_page = str_replace( '[new_count_refresh]',
   NEW_COUNT_REFRESH, $tweet_page); 
 $tweet_page = str_replace( '[ajax_url]', 
   AJAX_URL, $tweet_page); 
+$tweet_page = str_replace('[ajax_tweet_url]', AJAX_TWEET_URL, $tweet_page);
 $tweet_page = str_replace( '[more_button]', 
   MORE_BUTTON, $tweet_page); 
 

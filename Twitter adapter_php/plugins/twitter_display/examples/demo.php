@@ -1,7 +1,7 @@
 <?php
-if (PHP_SAPI != 'cli') {
-	echo "<pre>";
-}
+// if (PHP_SAPI != 'cli') {
+// 	echo "<pre>";
+// }
 
 $string = $_GET["txt"];
 /*array(
@@ -23,8 +23,19 @@ $sentiment = new \PHPInsight\Sentiment();
 	$class = $sentiment->categorise($string);
 
 	// output:
-	echo "String: $string\n";
-	echo "Dominant: $class, scores: ";
-	print_r($scores);
-	echo "\n";
+	// echo "String: $string\n";
+	// echo "Dominant: $class, scores: ";
+	$maxInd = -1;
+	$maxRes = array();
+	foreach($scores as $category => $score) {
+	    if($score > $maxInd) {
+	        $maxInd = $score;
+	        $maxRes = array();
+	    }
+	    if($score == $maxInd) {
+	        $maxRes[] = $category;
+		}
+	}
+	if(count($maxRes) > 1) {print('neu');}
+	else {print($maxRes[0]);}
 //}

@@ -163,5 +163,10 @@ body{
         width:50%;
         height:30em;
 }
+.tweet_left{
+	display: inline;
+	visibility: hidden;
+	padding: 8px 0 0 5px;
+}
      
 

@@ -13,7 +13,7 @@
     </div>
     <div class="nlp_btn">
 	<FORM>
-	    <INPUT TYPE="button" value=SentimentAnalyze onClick="parent.location='examples/demo.php?txt=[nlp_link]'">
+	    <INPUT TYPE="button" value=SentimentAnalyze>
       <input type="button" value=Geolocation onClick="parent.location='index.php?addr=[address]&id=[mapid]'">
 	</FORM>
     </div>
@@ -26,4 +26,7 @@
     <div id=[mapid] class='gmap_canvas'>Loading map...</div>
     <div class='map-label'>Map shows approximate location.</div>
   </div>
+</div>
+<div class="tweet_left">
+    <img src="image/face_plain.png" alt='smile face' width="48" height="48">
 </div><hr>

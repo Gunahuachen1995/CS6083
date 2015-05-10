@@ -13,6 +13,7 @@
 // For example, if the code is at http://mydomain.com/twitter_display/
 // change to define('AJAX_URL', 'http://mydomain.com/twitter_display/');
 define('AJAX_URL', 'http://localhost/~hongyegong/140dev/plugins/twitter_display/');
+define('AJAX_TWEET_URL', 'http://localhost/~hongyegong/140dev/plugins/twitter_display/examples/');
 
 // Number of tweets displayed when the tweet list is first displayed
 // and when the View More button is clicked

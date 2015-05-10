@@ -43,9 +43,38 @@ jQuery(document).ready(function($){
     $(".tfbutton").click(function(){
       search_tweets();
     });
+
+    $("input[type='button']").click(function(){
+      if($(this).attr("value") == "SentimentAnalyze"){
+        setiAnalyze($(this).closest('div').next('.tweet_text').html(), $(this));
+      }
+    });
   }
   /**********/	
-  
+  function setiAnalyze(tweet, thisObj)  {
+    $.get( $("#ajax_tweet_url").html() + 
+      "demo.php?txt=" + tweet, 
+      function(tweet_html){
+      // Add the server's response to the end of the list
+      if(tweet_html.toString() == 'neu'){
+        //alert(thisObj.attr("value"));
+        thisObj.parent().parent().parent().parent().next().find('img').attr('src', 'image/face_plain.png');
+        thisObj.parent().parent().parent().parent().next().find('img').css('visibility', 'visible');
+      }else if(tweet_html.toString() == 'pos'){
+        //alert(thisObj.attr("value"));
+        thisObj.parent().parent().parent().parent().next().find('img').attr('src', 'image/face_grin.png');
+        thisObj.parent().parent().parent().parent().next().find('img').css('visibility', 'visible');
+      }else if(tweet_html.toString() == 'neg'){
+        //alert(thisObj.attr("value"));
+        thisObj.parent().parent().parent().parent().next().find('img').attr('src', 'image/face_sad.png');
+        thisObj.parent().parent().parent().parent().next().find('img').css('visibility', 'visible');
+      }
+
+        
+      //$("#tweet_list").html(tweet_html);
+    });
+  }
+
   function search_tweets(){
     $('#more_tweets_button').unbind('click');
     var txt = $(".tftextinput").val();
