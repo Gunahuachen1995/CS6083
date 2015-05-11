@@ -3,11 +3,7 @@
 * 140dev_config.php
 * Constants for the entire 140dev Twitter framework
 * You MUST modify these to match your server setup when installing the framework
-* 
-* Latest copy of this code: http://140dev.com/free-twitter-api-source-code-library/
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.30
+* @author Hongye Gong
 */
 
 // OAuth settings for connecting to the Twitter streaming API

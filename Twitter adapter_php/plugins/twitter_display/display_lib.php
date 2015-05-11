@@ -2,10 +2,7 @@
 /**
 * display_lib.php
 * Convert entities into links within a tweet's text
-* Latest copy of this code: http://140dev.com/free-twitter-api-source-code-library/
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.30
+* @author Hongye Gong
 */
 function linkify($text) {
 

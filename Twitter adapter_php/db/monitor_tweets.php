@@ -2,10 +2,7 @@
 /**
 * monitor_tweets.php
 * Check for new tweets in the tweets table and report by email if they aren't found
-* Latest copy of this code: http://140dev.com/free-twitter-api-source-code-library/
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.20
+* @author Hongye Gong
 */
 require_once('140dev_config.php');
 require_once('db_lib.php');

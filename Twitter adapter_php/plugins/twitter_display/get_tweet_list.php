@@ -3,10 +3,7 @@
 * get_tweet_list.php
 * Return a list of the most recent tweets as HTML
 * Older tweets are requested with the query of last=[tweet_id] by site.js
-* 
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.30
+* @author Hongye Gong
 */
 require_once ('autoloader.php');// won't include it again in the following examples
 require_once('twitter_display_config.php' );

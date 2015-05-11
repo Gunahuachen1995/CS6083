@@ -2,10 +2,7 @@
 /**
 * parse_tweets.php
 * Populate the database with new tweet data from the json_cache table
-* Latest copy of this code: http://140dev.com/free-twitter-api-source-code-library/
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.30
+* @author Hongye Gong
 */
 require_once('140dev_config.php');
 require_once('db_lib.php');

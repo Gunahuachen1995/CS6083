@@ -1367,3 +1367,48 @@ Phirehose: Consume rate: 15 status/sec (899 total), avg enqueueStatus(): 0.64ms,
 Phirehose: Consume rate: 16 status/sec (987 total), avg enqueueStatus(): 0.64ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 1 seconds.
 Phirehose: Consume rate: 17 status/sec (998 total), avg enqueueStatus(): 0.62ms, avg checkFilterPredicates(): 0ms (12 total) over 60 seconds, max stream idle period: 1 seconds.
 Phirehose: Consume rate: 16 status/sec (980 total), avg enqueueStatus(): 0.69ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 1 seconds.
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+
+Warning: Module 'redis' already loaded in Unknown on line 0
+ Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'apple watch,boston,california,florida,negtive,newyork,perfect,positive,sad',)
+Phirehose: Resolved host stream.twitter.com to 199.16.156.217
+Phirehose: Connecting to ssl://199.16.156.217, port=443, connectTimeout=5
+Phirehose: Connection established to 199.16.156.217
+Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 98
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="bPRnzhcLJxr1gSgcpDWXeXSm3",oauth_nonce="1ba3cb90f746d6bb63779d9dee030d6f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1431369146",oauth_version="1.0A",oauth_token="1068719712-GblrfVA2vneQH6gKvcMiw99ha9bTmfTpfCkBjEQ",oauth_signature="kFHfbADM5jSzw8kkCApxW%2FKDueg%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=apple%20watch%2Cboston%2Ccalifornia%2Cflorida%2Cnegtive%2Cnewyork%2Cperfect%2Cpositive%2Csad
+
+
+Phirehose: Consume rate: 20 status/sec (1218 total), avg enqueueStatus(): 0.76ms, avg checkFilterPredicates(): 0.01ms (11 total) over 60 seconds, max stream idle period: 1 seconds.
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+
+Warning: Module 'redis' already loaded in Unknown on line 0
+ Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'apple watch,boston,california,florida,negtive,newyork,perfect,positive,sad',)
+Phirehose: Resolved host stream.twitter.com to 199.16.156.217
+Phirehose: Connecting to ssl://199.16.156.217, port=443, connectTimeout=5
+Phirehose: Connection established to 199.16.156.217
+Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 98
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="bPRnzhcLJxr1gSgcpDWXeXSm3",oauth_nonce="e5a925f5fc7a79da0adcceba5f03c570",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1431369390",oauth_version="1.0A",oauth_token="1068719712-GblrfVA2vneQH6gKvcMiw99ha9bTmfTpfCkBjEQ",oauth_signature="x5QtH68n2RMOoYgkZqDeySFnEjo%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=apple%20watch%2Cboston%2Ccalifornia%2Cflorida%2Cnegtive%2Cnewyork%2Cperfect%2Cpositive%2Csad
+
+
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+
+Warning: Module 'redis' already loaded in Unknown on line 0
+ Phirehose: Consume rate: 23 status/sec (1352 total), avg enqueueStatus(): 0.53ms, avg checkFilterPredicates(): 0ms (11 total) over 60 seconds, max stream idle period: 1 seconds.
+Phirehose: Consume rate: 22 status/sec (1324 total), avg enqueueStatus(): 0.67ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 1 seconds.
+Phirehose: Consume rate: 20 status/sec (1187 total), avg enqueueStatus(): 0.69ms, avg checkFilterPredicates(): 0.01ms (12 total) over 60 seconds, max stream idle period: 1 seconds.

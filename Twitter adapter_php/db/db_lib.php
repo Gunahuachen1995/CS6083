@@ -2,11 +2,7 @@
 /**
 * db_lib.php
 * General purpose database library for use by all 140dev code
-* 
-* Latest copy of this code: http://140dev.com/free-twitter-api-source-code-library/
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.30
+* @author Hongye Gong
 */
 class db
 {

@@ -2,10 +2,7 @@
 /**
 * twitter_display.php
 * Deliver a complete set of tweets including the supporting HTML elements
-* Latest copy of this code: http://140dev.com/free-twitter-api-source-code-library/
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.30
+* @author Hongye Gong
 */
 
 // Get constants for tweet display

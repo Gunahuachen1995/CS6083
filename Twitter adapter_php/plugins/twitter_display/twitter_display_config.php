@@ -2,10 +2,7 @@
 /**
 * twitter_display_config.php
 * Configuration options for the Twitter display plugin
-* Latest copy of this code: http://140dev.com/free-twitter-api-source-code-library/
-* @author Adam Green <140dev@gmail.com>
-* @license GNU Public License
-* @version BETA 0.30
+* @author Hongye Gong
 */
 
 // URL for site.js to call the framework with Ajax 
